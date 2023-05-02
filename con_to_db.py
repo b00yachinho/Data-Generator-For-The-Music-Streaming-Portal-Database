@@ -14,6 +14,7 @@ class Database:
             conn = oracledb.connect(user=self.username, password=self.password, dsn=dsn)
             print("Successfully connected to database")
             return conn
+        
         except oracledb.Error as e:
             print("Error while connecting to database:", e)
             return None

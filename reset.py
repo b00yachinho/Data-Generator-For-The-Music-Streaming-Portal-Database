@@ -2,6 +2,14 @@ import sys, os
 from con_to_db import Database
 import oracledb
 
+# change to correct db credentials
+db = Database(username='username',
+              password='password',
+              host='host',
+              port=0000,  # change to correct port
+              service_name='service_name')
+conn = db.connect()
+cur = conn.cursor()
 
 def createTables():
     with open('tables.sql') as f:
@@ -39,14 +47,6 @@ def deleteFiles():
         print('Wrong input, closing program...')
         sys.exit(1)
 
-# change to correct db credentials
-db = Database(username='username',
-              password='password',
-              host='host',
-              port=0000,  # change to correct port
-              service_name='service_name')
-conn = db.connect()
-cur = conn.cursor()
 
 print("What to do:")
 print("1. Drop Tables | 2. Create Tables | 3. Drop, then Create Tables | 4. Delete every '_data.txt' file")

@@ -223,12 +223,13 @@ switcher = {
 }
 
 print("Options to select:")
-print("0. all tables | 1. users | 2. producers | 3. music_tracks | 4. albums | 5. playlists | 6. concert_info | 7. ratings | 8. servers | 9. relations (12, 13, 16 & 17)")
+print("0. all tables | 1. users | 2. producers | 3. music_tracks | 4. albums | 5. playlists | 6. concert_info | "
+      "7. ratings | 8. servers | 9. relations (12, 13, 16 & 17)")
 
 selected_option = None
 while selected_option not in switcher:
     try:
-        selected_option = int(input("Select a table to genrate data to: "))
+        selected_option = int(input("Select a table to generate data to: "))
         if selected_option not in switcher:
             print("Wrong input.")
     except ValueError:
