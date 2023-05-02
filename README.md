@@ -18,6 +18,14 @@ To delete, or add tables to the database, or delete all generated `.txt` files, 
 
 To run the program, execute the `ex2db.py` script and follow the prompts in your terminal.
 
+### What every file does
+- `tables.sql` - a file containing the neccesary SQL code to create the tables,
+- `drop_tables.sql` - a file containing a SQL script that drops all tables from a database,
+- `con_to_db.py` - a module responsible for connecting to a Oracle database,
+- `reset.py` - a tool that can drop and create tables and delete all generated `.txt` files,
+- `gen_data.py` - a module that generates data,
+- `ex2db.py` - main program that executes everything to the database.
+---
 # PL - Generator Przykładowych Danych Dla Bazy Danych Portalu Streamingu Muzyki
 
 Ten program generuje przykładowe dane do bazy danych dla fikcyjnego serwisu streamingu muzyki przy użyciu Pythona i bazy danych Oracle.
@@ -37,3 +45,12 @@ Program ten generuje również pliki `.txt` zawierające wszystkie wygenerowane 
 Żeby usunąć, bądź dodać tabele do bazy danych, lub usunąć wszystkie wygenerowane pliki `.txt`, należy wykonać skrypt `reset.py` i wybrać odpowiednią opcję.
 
 Aby uruchomić program, należy wykonać skrypt `ex2db.py` i postępować zgodnie z monitami w terminalu.
+
+### Co robi każdy plik
+- `tables.sql` - plik zawierający kod SQL, niezbędny do tworzenia tabel,
+- `drop_tables.sql` - plik zawierający skrypt SQL, który usuwa wszystkie tabele z bazy danych,
+- `con_to_db.py` - moduł odpowiedzialny za połączenie z bazą danych Oracle,
+- `reset.py` - narzędzie, które potrafi usuwać i tworzyć tabele oraz usuwać wszystkie wygenerowane pliki `.txt`,
+- `gen_data.py` - moduł generujący dane,
+- `ex2db.py` - główny program wykonujący wszystko do bazy danych.
+---
