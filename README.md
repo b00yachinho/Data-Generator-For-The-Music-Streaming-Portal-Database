@@ -22,7 +22,7 @@ To run the program, execute the `ex2db.py` script and follow the prompts in your
 - `tables.sql` - a file containing the neccesary SQL code to create the tables,
 - `drop_tables.sql` - a file containing a SQL script that drops all tables from a database,
 - `con_to_db.py` - a module responsible for connecting to a Oracle database,
-- `reset.py` - a tool that can drop and create tables and delete all generated `.txt` files,
+- `reset.py` - a tool that drops and creates tables and deletes all generated `.txt` files,
 - `gen_data.py` - a module that generates data,
 - `ex2db.py` - main program that executes everything to the database.
 ---
@@ -50,7 +50,7 @@ Aby uruchomić program, należy wykonać skrypt `ex2db.py` i postępować zgodni
 - `tables.sql` - plik zawierający kod SQL, niezbędny do tworzenia tabel,
 - `drop_tables.sql` - plik zawierający skrypt SQL, który usuwa wszystkie tabele z bazy danych,
 - `con_to_db.py` - moduł odpowiedzialny za połączenie z bazą danych Oracle,
-- `reset.py` - narzędzie, które potrafi usuwać i tworzyć tabele oraz usuwać wszystkie wygenerowane pliki `.txt`,
+- `reset.py` - narzędzie, które usuwa i tworzy tabele oraz usuwa wszystkie wygenerowane pliki `.txt`,
 - `gen_data.py` - moduł generujący dane,
 - `ex2db.py` - główny program wykonujący wszystko do bazy danych.
 ---
