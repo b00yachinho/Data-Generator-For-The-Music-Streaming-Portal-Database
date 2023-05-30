@@ -180,7 +180,7 @@ class genRating:
     def generate_rating_data(self, num_rat, num_users, num_album, num_track):
         rat_data = []
         for i in range(num_rat):
-            rating = random.choice([i for i in range(21) if i % 2 == 0 or i % 2 == 1 / 2])
+            rating = random.choice([i for i in range(11) if i % 2 == 0 or i % 2 == 1 / 2])
             comment = None
             if random.randint(0, 1):
                 if rating < 3:
